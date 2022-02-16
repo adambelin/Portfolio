@@ -5,12 +5,11 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #323440;
     font-family: Helvetica, Arial, sans-serif;   
   }
 
-  /* apply styles to <header> */
+  /* header begin */
   header {
       padding: 20px 35px;
       background-color:#323440;
@@ -19,14 +18,19 @@ body {
   header h1 {
       font-weight: bold;
       font-size: 36px;
-      color: #33C9FF;
-      margin: 0;
+      color: #323440;
+      margin: 10px;
       display: inline;
+      border: solid;    
+      border-color: #33C9FF;
+      background-color: #33C9FF;
+      position: relative;
+      padding: 0px;
   }
 
   header a {
       text-decoration: none;
-      color: #33C9FF;
+      color: #323440;
   }
 
   header nav {
@@ -42,6 +46,35 @@ body {
       margin: 0 30px;
       font-weight: lighter;
       font-size: 22px;
+      text-decoration: none;
+      color: #33C9FF;
   }
 
+  /* hero style start */
+  .hero {
+      background-image: url(../assets/images/hero-bg.jpg);
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+/* hero style end */
+
+.hero-form {
+    background-color: #33C9FF;
+    color: #323440;
+    padding: 5px;
+    width: 309px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #323440;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
  
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+    
+}
