@@ -9,72 +9,82 @@ body {
     font-family: Helvetica, Arial, sans-serif;   
   }
 
-  /* header begin */
-  header {
-      padding: 20px 35px;
-      background-color:#323440;
+/* header begin */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#323440;
+    padding-top: .5em;
+    padding-bottom: .5em;
   }
 
-  header h1 {
-      font-weight: bold;
-      font-size: 36px;
-      color: #323440;
-      margin: 10px;
-      display: inline;
-      border: solid;    
-      border-color: #33C9FF;
-      background-color: #33C9FF;
-      position: relative;
-      padding: 0px;
+.nav_links {
+      list-style: none;
   }
 
-  header a {
-      text-decoration: none;
-      color: #323440;
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 22px;
+    text-decoration: none;
   }
 
-  header nav {
-      float: right;
-      margin: 7px 0;
+header h1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: bold;
+    color: #323440;   
+    border-color: #33C9FF;
+    background-color: #33C9FF;
   }
 
-  header nav ul li {
-      display: inline;
-  }
-
-  header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 22px;
+header a {
       text-decoration: none;
       color: #33C9FF;
   }
 
+.name {
+    color: #323440; 
+    margin-left: 3em;
+    padding-right: .3em;
+}
+
   /* hero style start */
   .hero {
-      background-image: url(../assets/images/hero-bg.jpg);
-      height: 250px;
-      background-size: cover;
-      background-position: center;
-      position: relative;
-  }
+    background-image: url(../assets/images/hero-bg.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 /* hero style end */
 
 .hero-form {
-    background-color: #33C9FF;
-    color: #323440;
-    padding: 5px;
-    width: 309px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #323440;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
+  background-color: #33C9FF;
+  color: #323440;
+  padding: 5px;
+  width: 309px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #323440;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
- 
+
 .hero-form h3 {
-    font-size: 24px;
-    margin: 0px;
-    
+  font-size: 24px;
+  margin: 0px;  
+}
+
+.main-content {
+    padding-top: 1em;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
