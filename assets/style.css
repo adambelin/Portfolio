@@ -82,9 +82,51 @@ header a {
 
 .main-content {
     padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .intro {
     display: grid;
     grid-template-columns: 20% 80%;
+}
+
+.section-title {
+    text-align: right;
+    padding-right: 3em;
+    border-right: 5px solid;
+    margin-right: 1em;
+}
+
+.section {
+    margin-bottom: 1em;
+}
+
+.run-buddy {
+    position: relative;
+}
+
+.run-buddy img, .twitter img {
+    width: 90%;
+    border: #323440 solid 5px;
+    padding: .001px;
+}
+
+.run-buddy div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background: #323440;
+    color: white;
+    bottom: 25px;  
+    width: 25%;
+    font-size: 15px;    
+}
+
+.project-label {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: italic;
 }
