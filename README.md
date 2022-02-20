@@ -2,7 +2,7 @@
 ###Weekly Challenge 2
 
 ###Description
-URL: https://adambelin.github.io/horiseon/
+URL: https://adambelin.github.io/Portfolio/
 
 This website is a portfolio for Adam Belin, showing work completed in HTML and CSS.
 
