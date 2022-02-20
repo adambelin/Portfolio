@@ -51,8 +51,8 @@ header a {
     margin-left: 3em;
     padding-right: .3em;
 }
-
-  /* hero style start */
+/*header end */
+/* hero style start */
   .hero {
     background-image: url(../assets/images/hero-bg.jpg);
     height: 200px;
@@ -60,7 +60,6 @@ header a {
     background-position: center;
     position: relative;
 }
-/* hero style end */
 
 .hero-form {
   background-color: #33C9FF;
@@ -79,7 +78,8 @@ header a {
   font-size: 24px;
   margin: 0px;  
 }
-
+/* hero style end */
+/*content section start */
 .main-content {
   padding-top: 1em;
   padding-left: 2em;
@@ -151,7 +151,8 @@ header a {
   font-weight: bold;
   text-decoration: italic;
 }
-
+/*content section end*/
+/*footer start*/
 footer {
   background: #323440;
   width: 100%;
@@ -192,6 +193,7 @@ footer a {
   align-items: center;
   align-content: center;
 }
+/*footer end*/
 
 
 
